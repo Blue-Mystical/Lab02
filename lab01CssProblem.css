@@ -1,8 +1,6 @@
 /*Give the <body> element a background of Black*/
 body {
     background: black;
-    color: cornsilk;
-    font-family: 'Mali', cursive;
 }
 
 /*Make the <h1> elements blue*/
@@ -37,13 +35,17 @@ abbr {
 }
 
 /*Give <p> in id "zen-benefits" pink background*/
-p#zen-benefits {
+#zen-benefits p {
     background: pink;
 }
 
 /*Make <li> adjacent to <h2> red background*/
-li + h2 {
+h2 ~ li {
     background: red;
 }
 
 /*Give <em> inside <p> red and bold*/
+p em {
+    color: red;
+    border-style: bold;
+}
